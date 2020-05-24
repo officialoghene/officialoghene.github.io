@@ -50,7 +50,9 @@ a {
 a:link, a:visited, a:hover, a:active {
     color: #1a1f33;
 }
-
+section#about div p {
+    text-indent: 20px;
+}
 /* Container flex display  */
 .container {
     display: flex;
