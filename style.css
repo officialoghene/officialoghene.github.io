@@ -26,11 +26,13 @@ header {
     padding: 20px 0px;
     font-size: 3em;
     background: rgb(236, 230, 243);
+    text-align: center;
 }
 
 main {
     padding: 0px 200px;
 }
+/* Formating all p tags */
 p {
     margin: 10px 2px;
     font-size: 1.9;
@@ -38,6 +40,7 @@ p {
     line-height: 20px;
 }
 
+/* Link formating */
 a {
     color: #1a1f33;
     font-weight: bold;
@@ -47,16 +50,23 @@ a {
 a:link, a:visited, a:hover, a:active {
     color: #1a1f33;
 }
+
+/* Container flex display  */
 .container {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+/* Resizing Image width  */
 img {
     width: 40vw;
 }
+
+/* Footer styling */
 footer {
     padding: 20px 0px;
     font-size: 1.3em;
     background: rgb(236, 230, 243);
+    text-align: center;
 }
